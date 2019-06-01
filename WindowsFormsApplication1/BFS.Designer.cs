@@ -29,89 +29,89 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Timer timer1;
+            this._timer1 = new System.Windows.Forms.Timer(this.components);
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.rectangleShape81 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape80 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape79 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape78 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape77 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape76 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape75 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape74 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape73 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape72 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape71 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape70 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape69 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape68 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape67 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape66 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape65 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape64 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape63 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape62 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape61 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape60 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape59 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape58 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape57 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape56 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape55 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape54 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape53 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape52 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape51 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape50 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape49 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape48 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape47 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape46 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape45 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape44 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape43 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape42 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape41 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape40 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape39 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape38 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape37 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape36 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape35 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape34 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape33 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape32 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape31 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape30 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape29 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape28 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape27 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape26 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape25 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape24 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape23 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape22 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape21 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape20 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape19 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape18 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape17 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape16 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape15 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape14 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape13 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape12 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape11 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape10 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.I2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.H2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.G2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.F2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.E1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.D1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.C1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.B1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.A1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -212,8 +212,13 @@
             this.lbl78 = new System.Windows.Forms.Label();
             this.lbl80 = new System.Windows.Forms.Label();
             this.lblstart = new System.Windows.Forms.Label();
-            timer1 = new System.Windows.Forms.Timer(this.components);
+            this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.SuspendLayout();
+            // 
+            // _timer1
+            // 
+            this._timer1.Interval = 300;
+            this._timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // shapeContainer1
             // 
@@ -222,575 +227,578 @@
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.rectangleShape81,
-            this.rectangleShape80,
-            this.rectangleShape79,
-            this.rectangleShape78,
-            this.rectangleShape77,
-            this.rectangleShape76,
-            this.rectangleShape75,
-            this.rectangleShape74,
-            this.rectangleShape73,
-            this.rectangleShape72,
-            this.rectangleShape71,
-            this.rectangleShape70,
-            this.rectangleShape69,
-            this.rectangleShape68,
-            this.rectangleShape67,
-            this.rectangleShape66,
-            this.rectangleShape65,
-            this.rectangleShape64,
-            this.rectangleShape63,
-            this.rectangleShape62,
-            this.rectangleShape61,
-            this.rectangleShape60,
-            this.rectangleShape59,
-            this.rectangleShape58,
-            this.rectangleShape57,
-            this.rectangleShape56,
-            this.rectangleShape55,
-            this.rectangleShape54,
-            this.rectangleShape53,
-            this.rectangleShape52,
-            this.rectangleShape51,
-            this.rectangleShape50,
-            this.rectangleShape49,
-            this.rectangleShape48,
-            this.rectangleShape47,
-            this.rectangleShape46,
-            this.rectangleShape45,
-            this.rectangleShape44,
-            this.rectangleShape43,
-            this.rectangleShape42,
-            this.rectangleShape41,
-            this.rectangleShape40,
-            this.rectangleShape39,
-            this.rectangleShape38,
-            this.rectangleShape37,
-            this.rectangleShape36,
-            this.rectangleShape35,
-            this.rectangleShape34,
-            this.rectangleShape33,
-            this.rectangleShape32,
-            this.rectangleShape31,
-            this.rectangleShape30,
-            this.rectangleShape29,
-            this.rectangleShape28,
-            this.rectangleShape27,
-            this.rectangleShape26,
-            this.rectangleShape25,
-            this.rectangleShape24,
-            this.rectangleShape23,
-            this.rectangleShape22,
-            this.rectangleShape21,
-            this.rectangleShape20,
-            this.rectangleShape19,
-            this.rectangleShape18,
-            this.rectangleShape17,
-            this.rectangleShape16,
-            this.rectangleShape15,
-            this.rectangleShape14,
-            this.rectangleShape13,
-            this.rectangleShape12,
-            this.rectangleShape11,
-            this.rectangleShape10,
-            this.rectangleShape9,
-            this.rectangleShape8,
-            this.rectangleShape7,
-            this.rectangleShape6,
-            this.rectangleShape5,
-            this.rectangleShape4,
-            this.rectangleShape3,
-            this.rectangleShape2,
-            this.rectangleShape1});
+            this.B9,
+            this.C9,
+            this.D9,
+            this.E9,
+            this.F9,
+            this.G9,
+            this.H9,
+            this.I9,
+            this.A7,
+            this.B7,
+            this.A8,
+            this.C7,
+            this.B8,
+            this.C8,
+            this.D7,
+            this.E7,
+            this.D8,
+            this.E8,
+            this.F8,
+            this.G8,
+            this.H8,
+            this.I8,
+            this.F7,
+            this.G7,
+            this.H7,
+            this.I7,
+            this.A5,
+            this.B5,
+            this.A6,
+            this.C5,
+            this.B6,
+            this.C6,
+            this.D5,
+            this.E5,
+            this.D6,
+            this.E6,
+            this.F6,
+            this.G6,
+            this.H6,
+            this.I6,
+            this.F5,
+            this.G5,
+            this.H5,
+            this.I5,
+            this.A3,
+            this.B3,
+            this.A4,
+            this.C3,
+            this.B4,
+            this.C4,
+            this.D3,
+            this.E3,
+            this.D4,
+            this.E4,
+            this.F4,
+            this.G4,
+            this.H4,
+            this.I4,
+            this.F3,
+            this.G3,
+            this.H3,
+            this.I3,
+            this.I1,
+            this.H1,
+            this.G1,
+            this.F1,
+            this.I2,
+            this.H2,
+            this.G2,
+            this.F2,
+            this.E2,
+            this.D2,
+            this.E1,
+            this.D1,
+            this.C2,
+            this.B2,
+            this.C1,
+            this.A2,
+            this.B1,
+            this.A1});
             this.shapeContainer1.Size = new System.Drawing.Size(344, 372);
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
             // 
             // rectangleShape81
             // 
+            this.rectangleShape81.AccessibleRole = System.Windows.Forms.AccessibleRole.Indicator;
             this.rectangleShape81.Location = new System.Drawing.Point(48, 260);
             this.rectangleShape81.Name = "rectangleShape81";
             this.rectangleShape81.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape80
+            // B9
             // 
-            this.rectangleShape80.Location = new System.Drawing.Point(76, 260);
-            this.rectangleShape80.Name = "rectangleShape80";
-            this.rectangleShape80.Size = new System.Drawing.Size(28, 26);
+            this.B9.BackColor = System.Drawing.SystemColors.Control;
+            this.B9.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.B9.Location = new System.Drawing.Point(76, 260);
+            this.B9.Name = "B9";
+            this.B9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape79
+            // C9
             // 
-            this.rectangleShape79.Location = new System.Drawing.Point(104, 260);
-            this.rectangleShape79.Name = "rectangleShape79";
-            this.rectangleShape79.Size = new System.Drawing.Size(28, 26);
+            this.C9.Location = new System.Drawing.Point(104, 260);
+            this.C9.Name = "C9";
+            this.C9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape78
+            // D9
             // 
-            this.rectangleShape78.Location = new System.Drawing.Point(132, 260);
-            this.rectangleShape78.Name = "rectangleShape78";
-            this.rectangleShape78.Size = new System.Drawing.Size(28, 26);
+            this.D9.Location = new System.Drawing.Point(132, 260);
+            this.D9.Name = "D9";
+            this.D9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape77
+            // E9
             // 
-            this.rectangleShape77.Location = new System.Drawing.Point(160, 260);
-            this.rectangleShape77.Name = "rectangleShape77";
-            this.rectangleShape77.Size = new System.Drawing.Size(28, 26);
+            this.E9.Location = new System.Drawing.Point(160, 260);
+            this.E9.Name = "E9";
+            this.E9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape76
+            // F9
             // 
-            this.rectangleShape76.Location = new System.Drawing.Point(188, 260);
-            this.rectangleShape76.Name = "rectangleShape76";
-            this.rectangleShape76.Size = new System.Drawing.Size(28, 26);
+            this.F9.Location = new System.Drawing.Point(188, 260);
+            this.F9.Name = "F9";
+            this.F9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape75
+            // G9
             // 
-            this.rectangleShape75.Location = new System.Drawing.Point(216, 260);
-            this.rectangleShape75.Name = "rectangleShape75";
-            this.rectangleShape75.Size = new System.Drawing.Size(28, 26);
+            this.G9.Location = new System.Drawing.Point(216, 260);
+            this.G9.Name = "G9";
+            this.G9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape74
+            // H9
             // 
-            this.rectangleShape74.Location = new System.Drawing.Point(244, 260);
-            this.rectangleShape74.Name = "rectangleShape74";
-            this.rectangleShape74.Size = new System.Drawing.Size(28, 26);
+            this.H9.Location = new System.Drawing.Point(244, 260);
+            this.H9.Name = "H9";
+            this.H9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape73
+            // I9
             // 
-            this.rectangleShape73.Location = new System.Drawing.Point(272, 260);
-            this.rectangleShape73.Name = "rectangleShape73";
-            this.rectangleShape73.Size = new System.Drawing.Size(28, 26);
+            this.I9.Location = new System.Drawing.Point(272, 260);
+            this.I9.Name = "I9";
+            this.I9.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape72
+            // A7
             // 
-            this.rectangleShape72.Location = new System.Drawing.Point(48, 208);
-            this.rectangleShape72.Name = "rectangleShape72";
-            this.rectangleShape72.Size = new System.Drawing.Size(28, 26);
+            this.A7.Location = new System.Drawing.Point(48, 208);
+            this.A7.Name = "A7";
+            this.A7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape71
+            // B7
             // 
-            this.rectangleShape71.Location = new System.Drawing.Point(76, 208);
-            this.rectangleShape71.Name = "rectangleShape71";
-            this.rectangleShape71.Size = new System.Drawing.Size(28, 26);
+            this.B7.Location = new System.Drawing.Point(76, 208);
+            this.B7.Name = "B7";
+            this.B7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape70
+            // A8
             // 
-            this.rectangleShape70.Location = new System.Drawing.Point(48, 234);
-            this.rectangleShape70.Name = "rectangleShape70";
-            this.rectangleShape70.Size = new System.Drawing.Size(28, 26);
+            this.A8.Location = new System.Drawing.Point(48, 234);
+            this.A8.Name = "A8";
+            this.A8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape69
+            // C7
             // 
-            this.rectangleShape69.Location = new System.Drawing.Point(104, 208);
-            this.rectangleShape69.Name = "rectangleShape69";
-            this.rectangleShape69.Size = new System.Drawing.Size(28, 26);
+            this.C7.Location = new System.Drawing.Point(104, 208);
+            this.C7.Name = "C7";
+            this.C7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape68
+            // B8
             // 
-            this.rectangleShape68.Location = new System.Drawing.Point(76, 234);
-            this.rectangleShape68.Name = "rectangleShape68";
-            this.rectangleShape68.Size = new System.Drawing.Size(28, 26);
+            this.B8.Location = new System.Drawing.Point(76, 234);
+            this.B8.Name = "B8";
+            this.B8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape67
+            // C8
             // 
-            this.rectangleShape67.Location = new System.Drawing.Point(104, 234);
-            this.rectangleShape67.Name = "rectangleShape67";
-            this.rectangleShape67.Size = new System.Drawing.Size(28, 26);
+            this.C8.Location = new System.Drawing.Point(104, 234);
+            this.C8.Name = "C8";
+            this.C8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape66
+            // D7
             // 
-            this.rectangleShape66.Location = new System.Drawing.Point(132, 208);
-            this.rectangleShape66.Name = "rectangleShape66";
-            this.rectangleShape66.Size = new System.Drawing.Size(28, 26);
+            this.D7.Location = new System.Drawing.Point(132, 208);
+            this.D7.Name = "D7";
+            this.D7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape65
+            // E7
             // 
-            this.rectangleShape65.Location = new System.Drawing.Point(160, 208);
-            this.rectangleShape65.Name = "rectangleShape65";
-            this.rectangleShape65.Size = new System.Drawing.Size(28, 26);
+            this.E7.Location = new System.Drawing.Point(160, 208);
+            this.E7.Name = "E7";
+            this.E7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape64
+            // D8
             // 
-            this.rectangleShape64.Location = new System.Drawing.Point(132, 234);
-            this.rectangleShape64.Name = "rectangleShape64";
-            this.rectangleShape64.Size = new System.Drawing.Size(28, 26);
+            this.D8.Location = new System.Drawing.Point(132, 234);
+            this.D8.Name = "D8";
+            this.D8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape63
+            // E8
             // 
-            this.rectangleShape63.Location = new System.Drawing.Point(160, 234);
-            this.rectangleShape63.Name = "rectangleShape63";
-            this.rectangleShape63.Size = new System.Drawing.Size(28, 26);
+            this.E8.Location = new System.Drawing.Point(160, 234);
+            this.E8.Name = "E8";
+            this.E8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape62
+            // F8
             // 
-            this.rectangleShape62.Location = new System.Drawing.Point(188, 234);
-            this.rectangleShape62.Name = "rectangleShape62";
-            this.rectangleShape62.Size = new System.Drawing.Size(28, 26);
+            this.F8.Location = new System.Drawing.Point(188, 234);
+            this.F8.Name = "F8";
+            this.F8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape61
+            // G8
             // 
-            this.rectangleShape61.Location = new System.Drawing.Point(216, 234);
-            this.rectangleShape61.Name = "rectangleShape61";
-            this.rectangleShape61.Size = new System.Drawing.Size(28, 26);
+            this.G8.Location = new System.Drawing.Point(216, 234);
+            this.G8.Name = "G8";
+            this.G8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape60
+            // H8
             // 
-            this.rectangleShape60.Location = new System.Drawing.Point(244, 234);
-            this.rectangleShape60.Name = "rectangleShape60";
-            this.rectangleShape60.Size = new System.Drawing.Size(28, 26);
+            this.H8.Location = new System.Drawing.Point(244, 234);
+            this.H8.Name = "H8";
+            this.H8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape59
+            // I8
             // 
-            this.rectangleShape59.Location = new System.Drawing.Point(272, 234);
-            this.rectangleShape59.Name = "rectangleShape59";
-            this.rectangleShape59.Size = new System.Drawing.Size(28, 26);
+            this.I8.Location = new System.Drawing.Point(272, 234);
+            this.I8.Name = "I8";
+            this.I8.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape58
+            // F7
             // 
-            this.rectangleShape58.Location = new System.Drawing.Point(188, 208);
-            this.rectangleShape58.Name = "rectangleShape58";
-            this.rectangleShape58.Size = new System.Drawing.Size(28, 26);
+            this.F7.Location = new System.Drawing.Point(188, 208);
+            this.F7.Name = "F7";
+            this.F7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape57
+            // G7
             // 
-            this.rectangleShape57.Location = new System.Drawing.Point(216, 208);
-            this.rectangleShape57.Name = "rectangleShape57";
-            this.rectangleShape57.Size = new System.Drawing.Size(28, 26);
+            this.G7.Location = new System.Drawing.Point(216, 208);
+            this.G7.Name = "G7";
+            this.G7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape56
+            // H7
             // 
-            this.rectangleShape56.Location = new System.Drawing.Point(244, 208);
-            this.rectangleShape56.Name = "rectangleShape56";
-            this.rectangleShape56.Size = new System.Drawing.Size(28, 26);
+            this.H7.Location = new System.Drawing.Point(244, 208);
+            this.H7.Name = "H7";
+            this.H7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape55
+            // I7
             // 
-            this.rectangleShape55.Location = new System.Drawing.Point(272, 208);
-            this.rectangleShape55.Name = "rectangleShape55";
-            this.rectangleShape55.Size = new System.Drawing.Size(28, 26);
+            this.I7.Location = new System.Drawing.Point(272, 208);
+            this.I7.Name = "I7";
+            this.I7.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape54
+            // A5
             // 
-            this.rectangleShape54.Location = new System.Drawing.Point(48, 156);
-            this.rectangleShape54.Name = "rectangleShape54";
-            this.rectangleShape54.Size = new System.Drawing.Size(28, 26);
+            this.A5.Location = new System.Drawing.Point(48, 156);
+            this.A5.Name = "A5";
+            this.A5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape53
+            // B5
             // 
-            this.rectangleShape53.Location = new System.Drawing.Point(76, 156);
-            this.rectangleShape53.Name = "rectangleShape53";
-            this.rectangleShape53.Size = new System.Drawing.Size(28, 26);
+            this.B5.Location = new System.Drawing.Point(76, 156);
+            this.B5.Name = "B5";
+            this.B5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape52
+            // A6
             // 
-            this.rectangleShape52.Location = new System.Drawing.Point(48, 182);
-            this.rectangleShape52.Name = "rectangleShape52";
-            this.rectangleShape52.Size = new System.Drawing.Size(28, 26);
+            this.A6.Location = new System.Drawing.Point(48, 182);
+            this.A6.Name = "A6";
+            this.A6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape51
+            // C5
             // 
-            this.rectangleShape51.Location = new System.Drawing.Point(104, 156);
-            this.rectangleShape51.Name = "rectangleShape51";
-            this.rectangleShape51.Size = new System.Drawing.Size(28, 26);
+            this.C5.Location = new System.Drawing.Point(104, 156);
+            this.C5.Name = "C5";
+            this.C5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape50
+            // B6
             // 
-            this.rectangleShape50.Location = new System.Drawing.Point(76, 182);
-            this.rectangleShape50.Name = "rectangleShape50";
-            this.rectangleShape50.Size = new System.Drawing.Size(28, 26);
+            this.B6.Location = new System.Drawing.Point(76, 182);
+            this.B6.Name = "B6";
+            this.B6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape49
+            // C6
             // 
-            this.rectangleShape49.Location = new System.Drawing.Point(104, 182);
-            this.rectangleShape49.Name = "rectangleShape49";
-            this.rectangleShape49.Size = new System.Drawing.Size(28, 26);
+            this.C6.Location = new System.Drawing.Point(104, 182);
+            this.C6.Name = "C6";
+            this.C6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape48
+            // D5
             // 
-            this.rectangleShape48.Location = new System.Drawing.Point(132, 156);
-            this.rectangleShape48.Name = "rectangleShape48";
-            this.rectangleShape48.Size = new System.Drawing.Size(28, 26);
+            this.D5.Location = new System.Drawing.Point(132, 156);
+            this.D5.Name = "D5";
+            this.D5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape47
+            // E5
             // 
-            this.rectangleShape47.Location = new System.Drawing.Point(160, 156);
-            this.rectangleShape47.Name = "rectangleShape47";
-            this.rectangleShape47.Size = new System.Drawing.Size(28, 26);
+            this.E5.Location = new System.Drawing.Point(160, 156);
+            this.E5.Name = "E5";
+            this.E5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape46
+            // D6
             // 
-            this.rectangleShape46.Location = new System.Drawing.Point(132, 182);
-            this.rectangleShape46.Name = "rectangleShape46";
-            this.rectangleShape46.Size = new System.Drawing.Size(28, 26);
+            this.D6.Location = new System.Drawing.Point(132, 182);
+            this.D6.Name = "D6";
+            this.D6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape45
+            // E6
             // 
-            this.rectangleShape45.Location = new System.Drawing.Point(160, 182);
-            this.rectangleShape45.Name = "rectangleShape45";
-            this.rectangleShape45.Size = new System.Drawing.Size(28, 26);
+            this.E6.Location = new System.Drawing.Point(160, 182);
+            this.E6.Name = "E6";
+            this.E6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape44
+            // F6
             // 
-            this.rectangleShape44.Location = new System.Drawing.Point(188, 182);
-            this.rectangleShape44.Name = "rectangleShape44";
-            this.rectangleShape44.Size = new System.Drawing.Size(28, 26);
+            this.F6.Location = new System.Drawing.Point(188, 182);
+            this.F6.Name = "F6";
+            this.F6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape43
+            // G6
             // 
-            this.rectangleShape43.Location = new System.Drawing.Point(216, 182);
-            this.rectangleShape43.Name = "rectangleShape43";
-            this.rectangleShape43.Size = new System.Drawing.Size(28, 26);
+            this.G6.Location = new System.Drawing.Point(216, 182);
+            this.G6.Name = "G6";
+            this.G6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape42
+            // H6
             // 
-            this.rectangleShape42.Location = new System.Drawing.Point(244, 182);
-            this.rectangleShape42.Name = "rectangleShape42";
-            this.rectangleShape42.Size = new System.Drawing.Size(28, 26);
+            this.H6.Location = new System.Drawing.Point(244, 182);
+            this.H6.Name = "H6";
+            this.H6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape41
+            // I6
             // 
-            this.rectangleShape41.Location = new System.Drawing.Point(272, 182);
-            this.rectangleShape41.Name = "rectangleShape41";
-            this.rectangleShape41.Size = new System.Drawing.Size(28, 26);
+            this.I6.Location = new System.Drawing.Point(272, 182);
+            this.I6.Name = "I6";
+            this.I6.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape40
+            // F5
             // 
-            this.rectangleShape40.Location = new System.Drawing.Point(188, 156);
-            this.rectangleShape40.Name = "rectangleShape40";
-            this.rectangleShape40.Size = new System.Drawing.Size(28, 26);
+            this.F5.Location = new System.Drawing.Point(188, 156);
+            this.F5.Name = "F5";
+            this.F5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape39
+            // G5
             // 
-            this.rectangleShape39.Location = new System.Drawing.Point(216, 156);
-            this.rectangleShape39.Name = "rectangleShape39";
-            this.rectangleShape39.Size = new System.Drawing.Size(28, 26);
+            this.G5.Location = new System.Drawing.Point(216, 156);
+            this.G5.Name = "G5";
+            this.G5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape38
+            // H5
             // 
-            this.rectangleShape38.Location = new System.Drawing.Point(244, 156);
-            this.rectangleShape38.Name = "rectangleShape38";
-            this.rectangleShape38.Size = new System.Drawing.Size(28, 26);
+            this.H5.Location = new System.Drawing.Point(244, 156);
+            this.H5.Name = "H5";
+            this.H5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape37
+            // I5
             // 
-            this.rectangleShape37.Location = new System.Drawing.Point(272, 156);
-            this.rectangleShape37.Name = "rectangleShape37";
-            this.rectangleShape37.Size = new System.Drawing.Size(28, 26);
+            this.I5.Location = new System.Drawing.Point(272, 156);
+            this.I5.Name = "I5";
+            this.I5.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape36
+            // A3
             // 
-            this.rectangleShape36.Location = new System.Drawing.Point(48, 104);
-            this.rectangleShape36.Name = "rectangleShape36";
-            this.rectangleShape36.Size = new System.Drawing.Size(28, 26);
+            this.A3.Location = new System.Drawing.Point(48, 104);
+            this.A3.Name = "A3";
+            this.A3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape35
+            // B3
             // 
-            this.rectangleShape35.Location = new System.Drawing.Point(76, 104);
-            this.rectangleShape35.Name = "rectangleShape35";
-            this.rectangleShape35.Size = new System.Drawing.Size(28, 26);
+            this.B3.Location = new System.Drawing.Point(76, 104);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape34
+            // A4
             // 
-            this.rectangleShape34.Location = new System.Drawing.Point(48, 130);
-            this.rectangleShape34.Name = "rectangleShape34";
-            this.rectangleShape34.Size = new System.Drawing.Size(28, 26);
+            this.A4.Location = new System.Drawing.Point(48, 130);
+            this.A4.Name = "A4";
+            this.A4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape33
+            // C3
             // 
-            this.rectangleShape33.Location = new System.Drawing.Point(104, 104);
-            this.rectangleShape33.Name = "rectangleShape33";
-            this.rectangleShape33.Size = new System.Drawing.Size(28, 26);
+            this.C3.Location = new System.Drawing.Point(104, 104);
+            this.C3.Name = "C3";
+            this.C3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape32
+            // B4
             // 
-            this.rectangleShape32.Location = new System.Drawing.Point(76, 130);
-            this.rectangleShape32.Name = "rectangleShape32";
-            this.rectangleShape32.Size = new System.Drawing.Size(28, 26);
+            this.B4.Location = new System.Drawing.Point(76, 130);
+            this.B4.Name = "B4";
+            this.B4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape31
+            // C4
             // 
-            this.rectangleShape31.Location = new System.Drawing.Point(104, 130);
-            this.rectangleShape31.Name = "rectangleShape31";
-            this.rectangleShape31.Size = new System.Drawing.Size(28, 26);
+            this.C4.Location = new System.Drawing.Point(104, 130);
+            this.C4.Name = "C4";
+            this.C4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape30
+            // D3
             // 
-            this.rectangleShape30.Location = new System.Drawing.Point(132, 104);
-            this.rectangleShape30.Name = "rectangleShape30";
-            this.rectangleShape30.Size = new System.Drawing.Size(28, 26);
+            this.D3.Location = new System.Drawing.Point(132, 104);
+            this.D3.Name = "D3";
+            this.D3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape29
+            // E3
             // 
-            this.rectangleShape29.Location = new System.Drawing.Point(160, 104);
-            this.rectangleShape29.Name = "rectangleShape29";
-            this.rectangleShape29.Size = new System.Drawing.Size(28, 26);
+            this.E3.Location = new System.Drawing.Point(160, 104);
+            this.E3.Name = "E3";
+            this.E3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape28
+            // D4
             // 
-            this.rectangleShape28.Location = new System.Drawing.Point(132, 130);
-            this.rectangleShape28.Name = "rectangleShape28";
-            this.rectangleShape28.Size = new System.Drawing.Size(28, 26);
+            this.D4.Location = new System.Drawing.Point(132, 130);
+            this.D4.Name = "D4";
+            this.D4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape27
+            // E4
             // 
-            this.rectangleShape27.Location = new System.Drawing.Point(160, 130);
-            this.rectangleShape27.Name = "rectangleShape27";
-            this.rectangleShape27.Size = new System.Drawing.Size(28, 26);
+            this.E4.Location = new System.Drawing.Point(160, 130);
+            this.E4.Name = "E4";
+            this.E4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape26
+            // F4
             // 
-            this.rectangleShape26.Location = new System.Drawing.Point(188, 130);
-            this.rectangleShape26.Name = "rectangleShape26";
-            this.rectangleShape26.Size = new System.Drawing.Size(28, 26);
+            this.F4.Location = new System.Drawing.Point(188, 130);
+            this.F4.Name = "F4";
+            this.F4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape25
+            // G4
             // 
-            this.rectangleShape25.Location = new System.Drawing.Point(216, 130);
-            this.rectangleShape25.Name = "rectangleShape25";
-            this.rectangleShape25.Size = new System.Drawing.Size(28, 26);
+            this.G4.Location = new System.Drawing.Point(216, 130);
+            this.G4.Name = "G4";
+            this.G4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape24
+            // H4
             // 
-            this.rectangleShape24.Location = new System.Drawing.Point(244, 130);
-            this.rectangleShape24.Name = "rectangleShape24";
-            this.rectangleShape24.Size = new System.Drawing.Size(28, 26);
+            this.H4.Location = new System.Drawing.Point(244, 130);
+            this.H4.Name = "H4";
+            this.H4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape23
+            // I4
             // 
-            this.rectangleShape23.Location = new System.Drawing.Point(272, 130);
-            this.rectangleShape23.Name = "rectangleShape23";
-            this.rectangleShape23.Size = new System.Drawing.Size(28, 26);
+            this.I4.Location = new System.Drawing.Point(272, 130);
+            this.I4.Name = "I4";
+            this.I4.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape22
+            // F3
             // 
-            this.rectangleShape22.Location = new System.Drawing.Point(188, 104);
-            this.rectangleShape22.Name = "rectangleShape22";
-            this.rectangleShape22.Size = new System.Drawing.Size(28, 26);
+            this.F3.Location = new System.Drawing.Point(188, 104);
+            this.F3.Name = "F3";
+            this.F3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape21
+            // G3
             // 
-            this.rectangleShape21.Location = new System.Drawing.Point(216, 104);
-            this.rectangleShape21.Name = "rectangleShape21";
-            this.rectangleShape21.Size = new System.Drawing.Size(28, 26);
+            this.G3.Location = new System.Drawing.Point(216, 104);
+            this.G3.Name = "G3";
+            this.G3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape20
+            // H3
             // 
-            this.rectangleShape20.Location = new System.Drawing.Point(244, 104);
-            this.rectangleShape20.Name = "rectangleShape20";
-            this.rectangleShape20.Size = new System.Drawing.Size(28, 26);
+            this.H3.Location = new System.Drawing.Point(244, 104);
+            this.H3.Name = "H3";
+            this.H3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape19
+            // I3
             // 
-            this.rectangleShape19.Location = new System.Drawing.Point(272, 104);
-            this.rectangleShape19.Name = "rectangleShape19";
-            this.rectangleShape19.Size = new System.Drawing.Size(28, 26);
+            this.I3.Location = new System.Drawing.Point(272, 104);
+            this.I3.Name = "I3";
+            this.I3.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape18
+            // I1
             // 
-            this.rectangleShape18.Location = new System.Drawing.Point(272, 52);
-            this.rectangleShape18.Name = "rectangleShape18";
-            this.rectangleShape18.Size = new System.Drawing.Size(28, 26);
+            this.I1.Location = new System.Drawing.Point(272, 52);
+            this.I1.Name = "I1";
+            this.I1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape17
+            // H1
             // 
-            this.rectangleShape17.Location = new System.Drawing.Point(244, 52);
-            this.rectangleShape17.Name = "rectangleShape17";
-            this.rectangleShape17.Size = new System.Drawing.Size(28, 26);
+            this.H1.Location = new System.Drawing.Point(244, 52);
+            this.H1.Name = "H1";
+            this.H1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape16
+            // G1
             // 
-            this.rectangleShape16.Location = new System.Drawing.Point(216, 52);
-            this.rectangleShape16.Name = "rectangleShape16";
-            this.rectangleShape16.Size = new System.Drawing.Size(28, 26);
+            this.G1.Location = new System.Drawing.Point(216, 52);
+            this.G1.Name = "G1";
+            this.G1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape15
+            // F1
             // 
-            this.rectangleShape15.Location = new System.Drawing.Point(188, 52);
-            this.rectangleShape15.Name = "rectangleShape15";
-            this.rectangleShape15.Size = new System.Drawing.Size(28, 26);
+            this.F1.Location = new System.Drawing.Point(188, 52);
+            this.F1.Name = "F1";
+            this.F1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape14
+            // I2
             // 
-            this.rectangleShape14.Location = new System.Drawing.Point(272, 78);
-            this.rectangleShape14.Name = "rectangleShape14";
-            this.rectangleShape14.Size = new System.Drawing.Size(28, 26);
+            this.I2.Location = new System.Drawing.Point(272, 78);
+            this.I2.Name = "I2";
+            this.I2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape13
+            // H2
             // 
-            this.rectangleShape13.Location = new System.Drawing.Point(244, 78);
-            this.rectangleShape13.Name = "rectangleShape13";
-            this.rectangleShape13.Size = new System.Drawing.Size(28, 26);
+            this.H2.Location = new System.Drawing.Point(244, 78);
+            this.H2.Name = "H2";
+            this.H2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape12
+            // G2
             // 
-            this.rectangleShape12.Location = new System.Drawing.Point(216, 78);
-            this.rectangleShape12.Name = "rectangleShape12";
-            this.rectangleShape12.Size = new System.Drawing.Size(28, 26);
+            this.G2.Location = new System.Drawing.Point(216, 78);
+            this.G2.Name = "G2";
+            this.G2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape11
+            // F2
             // 
-            this.rectangleShape11.Location = new System.Drawing.Point(188, 78);
-            this.rectangleShape11.Name = "rectangleShape11";
-            this.rectangleShape11.Size = new System.Drawing.Size(28, 26);
+            this.F2.Location = new System.Drawing.Point(188, 78);
+            this.F2.Name = "F2";
+            this.F2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape10
+            // E2
             // 
-            this.rectangleShape10.Location = new System.Drawing.Point(160, 78);
-            this.rectangleShape10.Name = "rectangleShape10";
-            this.rectangleShape10.Size = new System.Drawing.Size(28, 26);
+            this.E2.Location = new System.Drawing.Point(160, 78);
+            this.E2.Name = "E2";
+            this.E2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape9
+            // D2
             // 
-            this.rectangleShape9.Location = new System.Drawing.Point(132, 78);
-            this.rectangleShape9.Name = "rectangleShape9";
-            this.rectangleShape9.Size = new System.Drawing.Size(28, 26);
+            this.D2.Location = new System.Drawing.Point(132, 78);
+            this.D2.Name = "D2";
+            this.D2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape8
+            // E1
             // 
-            this.rectangleShape8.Location = new System.Drawing.Point(160, 52);
-            this.rectangleShape8.Name = "rectangleShape8";
-            this.rectangleShape8.Size = new System.Drawing.Size(28, 26);
+            this.E1.Location = new System.Drawing.Point(160, 52);
+            this.E1.Name = "E1";
+            this.E1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape7
+            // D1
             // 
-            this.rectangleShape7.Location = new System.Drawing.Point(132, 52);
-            this.rectangleShape7.Name = "rectangleShape7";
-            this.rectangleShape7.Size = new System.Drawing.Size(28, 26);
+            this.D1.Location = new System.Drawing.Point(132, 52);
+            this.D1.Name = "D1";
+            this.D1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape6
+            // C2
             // 
-            this.rectangleShape6.Location = new System.Drawing.Point(104, 78);
-            this.rectangleShape6.Name = "rectangleShape6";
-            this.rectangleShape6.Size = new System.Drawing.Size(28, 26);
+            this.C2.Location = new System.Drawing.Point(104, 78);
+            this.C2.Name = "C2";
+            this.C2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape5
+            // B2
             // 
-            this.rectangleShape5.Location = new System.Drawing.Point(76, 78);
-            this.rectangleShape5.Name = "rectangleShape5";
-            this.rectangleShape5.Size = new System.Drawing.Size(28, 26);
+            this.B2.Location = new System.Drawing.Point(76, 78);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape4
+            // C1
             // 
-            this.rectangleShape4.Location = new System.Drawing.Point(104, 52);
-            this.rectangleShape4.Name = "rectangleShape4";
-            this.rectangleShape4.Size = new System.Drawing.Size(28, 26);
+            this.C1.Location = new System.Drawing.Point(104, 52);
+            this.C1.Name = "C1";
+            this.C1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape3
+            // A2
             // 
-            this.rectangleShape3.Location = new System.Drawing.Point(48, 78);
-            this.rectangleShape3.Name = "rectangleShape3";
-            this.rectangleShape3.Size = new System.Drawing.Size(28, 26);
+            this.A2.Location = new System.Drawing.Point(48, 78);
+            this.A2.Name = "A2";
+            this.A2.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape2
+            // B1
             // 
-            this.rectangleShape2.Location = new System.Drawing.Point(76, 52);
-            this.rectangleShape2.Name = "rectangleShape2";
-            this.rectangleShape2.Size = new System.Drawing.Size(28, 26);
+            this.B1.Location = new System.Drawing.Point(76, 52);
+            this.B1.Name = "B1";
+            this.B1.Size = new System.Drawing.Size(28, 26);
             // 
-            // rectangleShape1
+            // A1
             // 
-            this.rectangleShape1.Location = new System.Drawing.Point(48, 52);
-            this.rectangleShape1.Name = "rectangleShape1";
-            this.rectangleShape1.Size = new System.Drawing.Size(28, 26);
+            this.A1.Location = new System.Drawing.Point(48, 52);
+            this.A1.Name = "A1";
+            this.A1.Size = new System.Drawing.Size(28, 26);
             // 
             // label9
             // 
@@ -985,6 +993,7 @@
             // lbl2
             // 
             this.lbl2.AutoSize = true;
+            this.lbl2.BackColor = System.Drawing.SystemColors.Control;
             this.lbl2.Location = new System.Drawing.Point(83, 267);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(13, 13);
@@ -1084,7 +1093,7 @@
             // lbl10
             // 
             this.lbl10.AutoSize = true;
-            this.lbl10.Location = new System.Drawing.Point(112, 215);
+            this.lbl10.Location = new System.Drawing.Point(109, 215);
             this.lbl10.Name = "lbl10";
             this.lbl10.Size = new System.Drawing.Size(19, 13);
             this.lbl10.TabIndex = 60;
@@ -1246,7 +1255,7 @@
             // lbl31
             // 
             this.lbl31.AutoSize = true;
-            this.lbl31.Location = new System.Drawing.Point(193, 215);
+            this.lbl31.Location = new System.Drawing.Point(194, 215);
             this.lbl31.Name = "lbl31";
             this.lbl31.Size = new System.Drawing.Size(19, 13);
             this.lbl31.TabIndex = 78;
@@ -1273,7 +1282,7 @@
             // lbl30
             // 
             this.lbl30.AutoSize = true;
-            this.lbl30.Location = new System.Drawing.Point(108, 137);
+            this.lbl30.Location = new System.Drawing.Point(109, 137);
             this.lbl30.Name = "lbl30";
             this.lbl30.Size = new System.Drawing.Size(19, 13);
             this.lbl30.TabIndex = 81;
@@ -1327,7 +1336,7 @@
             // lbl38
             // 
             this.lbl38.AutoSize = true;
-            this.lbl38.Location = new System.Drawing.Point(193, 192);
+            this.lbl38.Location = new System.Drawing.Point(193, 190);
             this.lbl38.Name = "lbl38";
             this.lbl38.Size = new System.Drawing.Size(19, 13);
             this.lbl38.TabIndex = 87;
@@ -1480,7 +1489,7 @@
             // lbl53
             // 
             this.lbl53.AutoSize = true;
-            this.lbl53.Location = new System.Drawing.Point(192, 137);
+            this.lbl53.Location = new System.Drawing.Point(193, 137);
             this.lbl53.Name = "lbl53";
             this.lbl53.Size = new System.Drawing.Size(19, 13);
             this.lbl53.TabIndex = 104;
@@ -1707,18 +1716,12 @@
             this.lblstart.AutoSize = true;
             this.lblstart.BackColor = System.Drawing.Color.Transparent;
             this.lblstart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblstart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstart.Location = new System.Drawing.Point(54, 265);
+            this.lblstart.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblstart.Location = new System.Drawing.Point(49, 265);
             this.lblstart.Name = "lblstart";
-            this.lblstart.Size = new System.Drawing.Size(16, 20);
+            this.lblstart.Size = new System.Drawing.Size(26, 31);
             this.lblstart.TabIndex = 129;
             this.lblstart.Text = "*";
-            // 
-            // timer1
-            // 
-            timer1.Enabled = true;
-            timer1.Interval = 1000;
-            timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // _BFS
             // 
@@ -1837,7 +1840,7 @@
         #endregion
 
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -1847,86 +1850,85 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape6;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape5;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape4;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape3;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape81;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape80;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape79;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape78;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape77;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape76;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape75;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape74;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape73;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape72;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape71;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape70;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape69;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape68;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape67;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape66;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape65;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape64;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape63;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape62;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape61;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape60;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape59;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape58;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape57;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape56;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape55;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape54;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape53;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape52;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape51;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape50;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape49;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape48;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape47;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape46;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape45;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape44;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape43;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape42;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape41;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape40;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape39;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape38;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape37;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape36;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape35;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape34;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape33;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape32;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape31;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape30;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape29;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape28;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape27;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape26;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape25;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape24;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape23;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape22;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape21;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape20;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape19;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape18;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape17;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape16;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape15;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape14;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape13;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape12;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape11;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape10;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape9;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape8;
-        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I9;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I8;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I7;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I6;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I5;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape A4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape B4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape C4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I4;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I3;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape I2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape H2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape G2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape F2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D2;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape E1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape D1;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
@@ -2018,5 +2020,8 @@
         private System.Windows.Forms.Label lbl78;
         private System.Windows.Forms.Label lbl80;
         private System.Windows.Forms.Label lblstart;
+        public System.Windows.Forms.Timer _timer1;
+        public Microsoft.VisualBasic.PowerPacks.RectangleShape B9;
+        private System.DirectoryServices.DirectoryEntry directoryEntry1;
     }
 }
