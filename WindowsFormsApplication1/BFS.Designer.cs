@@ -213,11 +213,11 @@
             this.lbl80 = new System.Windows.Forms.Label();
             this.lblstart = new System.Windows.Forms.Label();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
+            this.btn_reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // _timer1
             // 
-            this._timer1.Interval = 300;
             this._timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // shapeContainer1
@@ -984,7 +984,7 @@
             // 
             this.btn_mulai.Location = new System.Drawing.Point(48, 308);
             this.btn_mulai.Name = "btn_mulai";
-            this.btn_mulai.Size = new System.Drawing.Size(253, 45);
+            this.btn_mulai.Size = new System.Drawing.Size(197, 45);
             this.btn_mulai.TabIndex = 48;
             this.btn_mulai.Text = "Mulai";
             this.btn_mulai.UseVisualStyleBackColor = true;
@@ -1723,11 +1723,22 @@
             this.lblstart.TabIndex = 129;
             this.lblstart.Text = "*";
             // 
+            // btn_reset
+            // 
+            this.btn_reset.Location = new System.Drawing.Point(250, 308);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(51, 45);
+            this.btn_reset.TabIndex = 130;
+            this.btn_reset.Text = "Reset";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
+            // 
             // _BFS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 372);
+            this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.lblstart);
             this.Controls.Add(this.lbl80);
             this.Controls.Add(this.lbl78);
@@ -2023,5 +2034,6 @@
         public System.Windows.Forms.Timer _timer1;
         public Microsoft.VisualBasic.PowerPacks.RectangleShape B9;
         private System.DirectoryServices.DirectoryEntry directoryEntry1;
+        private System.Windows.Forms.Button btn_reset;
     }
 }

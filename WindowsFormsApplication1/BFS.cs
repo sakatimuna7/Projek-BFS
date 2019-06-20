@@ -42,6 +42,21 @@ namespace WindowsFormsApplication1
             i = 0;
             _timer1.Start();            
         }
+        private void btn_reset_Click(object sender, EventArgs e)
+        {
+            RectangleShape[] rf = {A8, B9, B8, A7, C9,B7,C8,A6,D9,C7,B6,D8,A5,E9,C6,D7,B5,E8,A4,
+                                  F9,D6,C5,E7,B4,F8,A3,G9,D5,E6,C4,F7,B3,G8,A2,H9,E5,D4,F6,C3,G7,
+                                  B2,H8,A1,I9,E4,F5,D3,G6,C2,H7,B1,I8,E3,F4,G5,D2,H6,C1,I7,F3,G4,E2,H5,D1,I6,G3,F2,H4,E1,I5,
+                                  G2,H3,F1,I4,H2,G1,I3,H1,I2,I1};
+            Label[] lb = { lbl1, lbl2, lbl3, lbl4, lbl5, lbl6, lbl7, lbl8, lbl9, lbl10, lbl11, lbl12, lbl13, lbl14, lbl15, lbl16, lbl17, lbl18, lbl19, lbl20, lbl21, lbl22, lbl23, lbl24, lbl25, lbl26, lbl27, lbl28, lbl29, lbl30, lbl31, lbl31, lbl32, lbl33, lbl34, lbl35, lbl36, lbl37, lbl38, lbl39, lbl40, lbl41, lbl42, lbl43, lbl44, lbl45, lbl46, lbl47, lbl48, lbl49, lbl50, lbl51, lbl52, lbl53, lbl54, lbl55, lbl56, lbl57, lbl58, lbl59, lbl60, lbl61, lbl62, lbl63, lbl64, lbl65, lbl66, lbl67, lbl68, lbl69, lbl70, lbl71, lbl72, lbl73, lbl74, lbl75, lbl76, lbl77, lbl78, lbl79, lbl80 };
+            int i = 0;
+            for (; i < rf.Length; i++)
+            {
+                lb[i].Text = "";
+                rf[i].BackColor = Color.Transparent;
+            }
+            lb[i].Text = "";
+        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -160,5 +175,9 @@ namespace WindowsFormsApplication1
                 return arr;
             }
         }
+
+
+
+
     }
 }

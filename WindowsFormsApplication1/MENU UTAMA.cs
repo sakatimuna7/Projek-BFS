@@ -19,9 +19,9 @@ namespace WindowsFormsApplication1
 
         private void aBOUTUSToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           /* frm_about frm_abt = new frm_about();
-            frm_abt.MdiParent = this;
-            frm_abt.Show();*/
+            MEMBER m = new MEMBER();
+            m.MdiParent = this;
+            m.Show();
         }
 
         private void bREADTHFIRSTSEARCHToolStripMenuItem_Click(object sender, EventArgs e)
